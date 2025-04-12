@@ -17,7 +17,7 @@ This document outlines my contributions to the [Oppia](https://github.com/oppia/
 
 ---
 
-## 🕒 Open Pull Requests
+## 🕒 Opened Pull Requests
 
 |No. | PR Number | Title | Description |
 |-----------|-----------|-------|-------------|
