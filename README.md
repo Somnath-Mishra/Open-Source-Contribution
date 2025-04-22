@@ -14,6 +14,7 @@ This document outlines my contributions to the [Oppia](https://github.com/oppia/
 |4. | [#21360](https://github.com/oppia/oppia/pull/21360) | fix #20332: Beam job to audit Topic and related to models to ensure they are valid | Implemented an Apache Beam job to validate relationships between data models. |
 |5. | [#21772](https://github.com/oppia/oppia/pull/21772) | fix #19636: Beam job change user null bio to empty string in UserSettings model | Implemented an Apache Beam job to update corrupted data models on the server, resolving internal server errors. |
 |6. | [#22190](https://github.com/oppia/oppia/pull/22190) | Fix part of #21646 :Add acceptance test for download any version of the exploration from the history tab | Wrote a Puppeteer-based acceptance test for exploration download by the editor. |
+|7. | [#22150](https://github.com/oppia/oppia/pull/22150) | Fix part of #18973: Enable solution tab for multiple choice input interaction | Enabled the solution tab for the Multiple Choice Input interaction. |
 
 ---
 
@@ -23,8 +24,7 @@ This document outlines my contributions to the [Oppia](https://github.com/oppia/
 |-----------|-----------|-------|-------------|
 |1. | [#21655](https://github.com/oppia/oppia/pull/21655) | Fix #20289: Make topic deletion logic transactional | Implementing topic deletion logic to be transactional. |
 |2. | [#22115](https://github.com/oppia/oppia/pull/22115) | Fix part of #18973: Enable solution tab item selection input interaction | Enabling the solution tab for the Item Selection Input interaction. |
-|3. | [#22150](https://github.com/oppia/oppia/pull/22150) | Fix part of #18973: Enable solution tab for multiple choice input interaction | Enabling the solution tab for the Multiple Choice Input interaction. |
-|4. | [#22396](https://github.com/oppia/oppia/pull/22396) | add domain object and validate() method for ExplorationRightsModel  | Creating a domain object and validate() method for the ExplorationRightsModel, and refactoring the codebase so that the storage model is only accessed in the get and save methods in the service file, with the corresponding domain object used elsewhere. |
+|3. | [#22396](https://github.com/oppia/oppia/pull/22396) | Fix part of #21970: add domain object and validate() method for ExplorationRightsModel  | Creating a domain object and validate() method for the ExplorationRightsModel, and refactoring the codebase so that the storage model is only accessed in the get and save methods in the service file, with the corresponding domain object used elsewhere. |
 
 ---
 
