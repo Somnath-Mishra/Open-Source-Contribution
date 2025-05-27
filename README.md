@@ -19,13 +19,4 @@ This document outlines my contributions to the [Oppia](https://github.com/oppia/
 
 ---
 
-## 🕒 Opened Pull Requests
-
-|No. | PR Number | Title | Description |
-|-----------|-----------|-------|-------------|
-|1. | [#21655](https://github.com/oppia/oppia/pull/21655) | Fix #20289: Make topic deletion logic transactional | Implementing topic deletion logic to be transactional. |
-|2. | [#22115](https://github.com/oppia/oppia/pull/22115) | Fix part of #18973: Enable solution tab item selection input interaction | Enabling the solution tab for the Item Selection Input interaction. |
-
----
-
 > ✨ For more details on each PR, please visit the linked pull request on GitHub.
